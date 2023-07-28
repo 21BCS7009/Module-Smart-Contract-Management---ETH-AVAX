@@ -91,7 +91,7 @@ export default function HomePage() {
             marginRight:"20px",
             color:"black",
             }}>
-            Fetch Naming
+            Fetch Names
           </button>
           <button onClick={setNaming} style={{ 
             backgroundColor: "black",
@@ -102,7 +102,7 @@ export default function HomePage() {
             marginRight:"20px" ,
             color:"white",
             }}>
-            Set Naming
+            Set Names
           </button>
         </div>
         {/* INPUT TEXT - String  */}
@@ -128,7 +128,7 @@ export default function HomePage() {
           border: "3px solid black",
           borderRadius:"10px",
           justifyContent: "center",
-        }}>Naming: {currentNaming}</h2>
+        }}>Names: {currentNaming}</h2>
       </div>
     </div>
   );
